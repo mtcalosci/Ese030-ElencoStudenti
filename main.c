@@ -20,13 +20,13 @@ int main(int argc, char** argv) {
     
     for(i = 0; i < N; i++) {
         printf("Inserisci il nome dell'alunno: ");
-        scanf("%s", &Alunno[i].nome);
+        scanf("%s", Alunno[i].nome);
         printf("Inserisci il cognome dell'alunno: ");
-        scanf("%s", &Alunno[i].cognome);
+        scanf("%s", Alunno[i].cognome);
         printf("Inserisci l'eta dell'alunno: ");
         scanf("%d", &Alunno[i].eta);
         printf("Inserisci la classe dell'alunno: ");
-        scanf("%s", &Alunno[i].classe);
+        scanf("%s", Alunno[i].classe);
     }
     
     for(i = 0; i < N; i++) {
